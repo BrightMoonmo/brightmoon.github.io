@@ -36,8 +36,3 @@ google_plus:
 fb_admins:
 fb_app_id:
 
-deploy:
-  type: git
-  repo: https://github.com/BrightMoonmo/brightmoon.github.io
-  branch: master
-  message: Update Hexo
