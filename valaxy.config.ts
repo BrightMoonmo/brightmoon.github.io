@@ -41,7 +41,7 @@ export default defineValaxyConfig<UserThemeConfig> ({
     ],
 
     footer: {
-      since: 2016,
+      since: 2023,
       // beian: {
       //   enable: true,
       //   icp: '苏ICP备17038157号',
@@ -59,7 +59,7 @@ export default defineValaxyConfig<UserThemeConfig> ({
       // Aligolia 搜索
     addonAlgolia({
       appId: 'UX9HUX3YK4',
-      apiKey: '89fdd88c15246b451a772b71e45f61a9',
+      apiKey: '0ecb73a1b3e1abff0830fad1252c048b',
       indexName: 'brightmoonmo',
     }),
       // 评论
