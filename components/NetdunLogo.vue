@@ -7,13 +7,13 @@ const netdun = {
 </script>
 
 <template>
-  <div class="flex-center">
-    <span mr-1>由</span>
-    <a inline-flex :href="netdun.url" target="_blank" :title="netdun.name">
-      <img class="netdun-logo" w="25" :src="netdun.logo">
-    </a>
-    <span>提供 CDN 支持</span>
-  </div>
+<!--  <div class="flex-center">-->
+<!--    <span mr-1>由</span>-->
+<!--    <a inline-flex :href="netdun.url" target="_blank" :title="netdun.name">-->
+<!--      <img class="netdun-logo" w="25" :src="netdun.logo">-->
+<!--    </a>-->
+<!--    <span>提供 CDN 支持</span>-->
+<!--  </div>-->
 </template>
 
 <style lang="scss">

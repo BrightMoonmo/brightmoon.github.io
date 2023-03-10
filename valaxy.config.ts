@@ -13,7 +13,7 @@ export default defineValaxyConfig<UserThemeConfig> ({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: ['Bright','⭐','🌙','⭐','Moonmo'],
       cloud: {
         enable: true,
       },
@@ -27,9 +27,9 @@ export default defineValaxyConfig<UserThemeConfig> ({
         color: 'dodgerblue',
       },
       {
-        name: '赞助者们',
-        url: 'https://sponsors.yunyoujun.cn',
-        icon: 'i-ri-heart-line',
+        name: '赞助我',
+        url: '/posts/reward',
+        icon: 'i-ri-money-cny-box-line',
         color: 'red',
       },
       {
@@ -42,10 +42,10 @@ export default defineValaxyConfig<UserThemeConfig> ({
 
     footer: {
       since: 2016,
-      beian: {
-        enable: true,
-        icp: '苏ICP备17038157号',
-      },
+      // beian: {
+      //   enable: true,
+      //   icp: '苏ICP备17038157号',
+      // },
     },
   },
 
@@ -56,13 +56,15 @@ export default defineValaxyConfig<UserThemeConfig> ({
   },
 
   addons: [
+      // Aligolia 搜索
     addonAlgolia({
-      appId: 'CJXXAGRCYN',
-      apiKey: 'ae1966d2aeab22bf9335679f45d2cd9a',
-      indexName: 'my-hexo-blog',
+      appId: 'UX9HUX3YK4',
+      apiKey: '89fdd88c15246b451a772b71e45f61a9',
+      indexName: 'brightmoonmo',
     }),
+      // 评论
     addonWaline({
-      serverURL: 'https://waline.yunyoujun.cn',
+      serverURL: 'https://brightmoonmo-github-io.vercel.app/',
       // pageview: true,
       comment: true,
     }),
